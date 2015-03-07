@@ -1,0 +1,84 @@
+
+html.bootstrap-admin-vertical-centered {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+html.bootstrap-admin-vertical-centered body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+html.bootstrap-admin-vertical-centered .container{
+    display: table;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+html.bootstrap-admin-vertical-centered .container .row{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/** Body **/
+body{
+    background-color: #fff;
+    padding-top: 70px; /* Required, because main menu / navbar has "navbar-fixed-top" class and is sticked to the top */
+}
+body.bootstrap-admin-with-small-navbar{
+    padding-top: 95px;
+}
+
+/** Main container **/
+#content {
+    margin-left: 0px;
+}
+
+/** Horizontal navbars */
+.bootstrap-admin-navbar-sm{
+    background-image: none;
+    border: 0;
+    box-shadow: initial;
+    margin-bottom: 0;
+    min-height: 26px;
+    z-index: 1030;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child{
+    margin-left: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child > li:first-child > a{
+    padding-left: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child{
+    margin-right: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child > li:last-child > a{
+    padding-right: 0;
+}
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text,
+.bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a{
+    font-size: 13px;
+    padding: 3px 8px;
+}
+.bootstrap-admin-navbar-under-small{
+    top: 25px;
+    z-index: 1020;
+}
+.bootstrap-admin-navbar .navbar-nav > li > a:focus,
+.bootstrap-admin-navbar .navbar-nav > li > a:hover {
+    background-color: #e7e7e7;
+    color: #222;
+}
+/** Footer **/
+.navbar-footer{
+    background-color: #F8F8F8;
+    margin-top: 15px;
+}
+.navbar-footer footer p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

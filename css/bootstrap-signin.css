@@ -1,0 +1,33 @@
+.bootstrap-admin-login-form, .bootstrap-admin-user-add-content{
+    max-width: 400px;
+    padding: 30px;
+    margin: 5px auto;
+    background-color: #FFF;
+    border: 1px solid #E5E5E5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.bootstrap-admin-login-form h1, .bootstrap-admin-user-add-content h1{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.bootstrap-admin-login-form .form-group{
+    margin-bottom: 20px;
+}
+.bootstrap-admin-login-form label{
+    font-size: 15px;
+}
+.bootstrap-admin-login-form input[type="text"],
+.bootstrap-admin-login-form input[type="password"]{
+    font-size: 16px;
+    height: auto;
+    padding: 7px 9px;
+}
+.bootstrap-admin-login-form input[type="checkbox"]{
+    margin-right: 5px;
+}
